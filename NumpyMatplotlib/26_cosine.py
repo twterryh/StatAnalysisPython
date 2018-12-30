@@ -22,9 +22,11 @@ plt.show()
 # -------------------------------------------------
 t = np.arange(1,10,0.1)
 y = np.sin(t)
+z = np.cos(t)
 
 plt.figure(figsize=(14,14))
-plt.plot(t,y)
+plt.plot(t,y, label='sin')
+plt.plot(t,z, label='cos')
 plt.xlabel('time')
 plt.ylabel('sin')
 plt.title('hello')
