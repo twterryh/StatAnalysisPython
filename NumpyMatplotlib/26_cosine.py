@@ -19,3 +19,13 @@ plt.yticks([-1,0,1],
 plt.grid(True)
 plt.show()
 
+# -------------------------------------------------
+t = np.arange(1,10,0.1)
+y = np.sin(t)
+
+plt.figure(figsize=(14,14))
+plt.plot(t,y)
+plt.xlabel('time')
+plt.ylabel('sin')
+plt.title('hello')
+plt.show()
